@@ -10,8 +10,9 @@
             <img src="images/map-marker-icon.png" ng-click="popoverShow(standort)" class="displayInline" width="36" height="42" />
             <a href="" class="displayInline"> Route anzeigen </a>
 
-            <div class="popoversw mapDefaults" ng-click="popoverHide(standort)" ng-show="standort.onShow" ng-style>
-                <div id="map{{standort.id}}"></div>
+            <div class="popoversw" ng-click="popoverHide(standort)" ng-show="standort.onShow" ng-style>
+               
+                    <div id="map{{standort.id}}" class="mapDefaults"> </div>
             </div>
 
 

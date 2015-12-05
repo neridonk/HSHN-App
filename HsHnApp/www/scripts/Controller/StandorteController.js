@@ -19,12 +19,21 @@ apport.controller('StandorteController', function ($scope) {
           name: 'Netto Marken-Discount',
           onShow: false
 
+      },
+      {
+          id: 3,
+          ort: 'Heilbronn',
+          plz: '74081',
+          strasse: 'raidweg 21',
+          name: 'Eine schöner entspannungs Ort',
+          onShow: false
+
       }
     ];
 
 
     $scope.popoverShow = function (element) {
-        var eleDiv = document.getElementById("map" + element.id);
+        var eleDiv = "map" + element.id;
         var addresse = element.strasse + " " + element.ort;
         initAdresse(addresse,eleDiv);
         element.onShow = true;

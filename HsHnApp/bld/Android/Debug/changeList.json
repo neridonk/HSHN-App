@@ -51,6 +51,7 @@
     "plugins\\cordova-plugin-geolocation\\doc\\fr\\index.md",
     "res\\screens\\wp8\\SplashScreenImage.jpg",
     "res\\screens\\ios\\screen-ipad-landscape-2x.png",
+    "www\\scripts\\Controller\\HomeController.js",
     "plugins\\cordova-plugin-whitelist\\doc\\pl\\README.md",
     "plugins\\cordova-plugin-geolocation\\NOTICE",
     "res\\screens\\ios\\screen-iphone-568h-2x.png",
@@ -126,40 +127,30 @@
     "res\\screens\\windows\\SplashScreen.scale-100.png",
     "res\\screens\\ios\\screen-iphone-portrait-736h.png",
     "res\\screens\\ios\\screen-ipad-portrait.png",
+    "www\\scripts\\Controller\\StandorteController.js",
     "plugins\\cordova-plugin-whitelist\\RELEASENOTES.md",
     "plugins\\cordova-plugin-whitelist\\doc\\es\\README.md",
     "res\\screens\\android\\screen-xhdpi-landscape.png",
     "plugins\\cordova-plugin-geolocation\\doc\\de\\README.md",
     "plugins\\cordova-plugin-geolocation\\tests\\tests.js",
+    "www\\scripts\\View\\Standorte.html",
     "plugins\\cordova-plugin-whitelist\\README.md",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
-    "www\\scripts\\View\\Standorte.html",
-    "www\\scripts\\Controller\\StandorteController.js",
-    "www\\scripts\\Controller\\HomeController.js",
-    "www\\scripts\\Controller\\StandorteController.js~RF3dfcb169.TMP",
-    "www\\scripts\\View\\Standorte.html~RF3e026ccb.TMP",
-    "www\\scripts\\app.js~RF3e18ea64.TMP",
     "www\\images\\map-marker-icon.png",
-    "www\\scripts\\View\\Standorte.html~RF3e26bfbc.TMP",
-    "www\\scripts\\View\\Standorte.html~RF3e27e3a0.TMP",
-    "www\\scripts\\View\\Standorte.html~RF3e3d038f.TMP"
+    "www\\css\\index.css~RF3e755623.TMP",
+    "www\\css\\index.css~RF3e75efb3.TMP",
+    "www\\scripts\\index.js~RF3e89ddf8.TMP",
+    "www\\css\\index.css~RF3e90b794.TMP"
   ],
-  "deletedFilesIos": [
-    "www\\scripts\\View\\Test - Kopieren.html",
-    "www\\scripts\\Controller\\controllers - Kopieren.js",
-    "www\\scripts\\Controller\\StandorteController",
-    "www\\scripts\\Controller\\controllers.js",
-    "www\\scripts\\Controller\\map-marker-icon.png",
-    "www\\scripts\\View\\map-marker-icon.png"
-  ],
+  "deletedFilesIos": [],
   "addedPluginsIos": [
     "cordova-plugin-geolocation@1.0.1"
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
     "www\\css\\index.css",
-    "www\\scripts\\View\\Standorte.html"
+    "www\\css\\index.css~RF3e90b794.TMP"
   ],
   "deletedFiles": [],
   "addedPlugins": [],

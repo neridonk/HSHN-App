@@ -37,17 +37,30 @@ function initialize(coords) {
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("karte"), myOptions);
+
+    var marker = new google.maps.Marker({
+        map: map,
+        position: latlng
+    });
 }
 
-function initAdresse(adresse, elementDiv) {
+function initAdresse(adresse, id) {
+
+    document.getElementById(id).innerHTML = '';
 
     var myOptions = {
         zoom: 16,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
-    var map = new google.maps.Map(elementDiv, myOptions);
+    var map = new google.maps.Map(document.getElementById(id), myOptions);
 
     gehezuAddress(adresse, map);
+
+    //Workaround gegen graue Box
+    setTimeout(function () {
+        google.maps.event.trigger(map, 'resize');
+    }, 100)
+
 
 }
 
