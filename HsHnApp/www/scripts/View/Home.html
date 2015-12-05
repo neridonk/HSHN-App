@@ -1,0 +1,13 @@
+﻿
+
+<div id="karte"></div>
+<script>
+
+    navigator.geolocation.getCurrentPosition(function (position) {
+        initialize(position.coords);
+    }, function () {
+        document.getElementById('karte').innerHTML = 'Deine Position konnte leider nicht ermittelt werden';
+    });
+
+
+</script>
