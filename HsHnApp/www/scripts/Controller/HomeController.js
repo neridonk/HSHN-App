@@ -1,5 +1,6 @@
-﻿angular.module('hshnApp.controllers', []).
-controller('HomeController', function ($scope) {
+﻿var app = angular.module('hshnApp.HomeController', []);
+
+app.controller('HomeController', function ($scope) {
     $scope.driversList = [
       {
           Driver: {

@@ -38,3 +38,32 @@ function initialize(coords) {
     };
     var map = new google.maps.Map(document.getElementById("karte"), myOptions);
 }
+
+function initAdresse(adresse, elementDiv) {
+
+    var myOptions = {
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(elementDiv, myOptions);
+
+    gehezuAddress(adresse, map);
+
+}
+
+function gehezuAddress(address, map) {
+    var geocoder = geocoder = new google.maps.Geocoder();
+
+    var address = address
+    geocoder.geocode({ 'address': address }, function (results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+            map.setCenter(results[0].geometry.location);
+            var marker = new google.maps.Marker({
+                map: map,
+                position: results[0].geometry.location
+            });
+        } else {
+            alert("Adresse nicht gefunden");
+        }
+    });
+}
