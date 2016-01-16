@@ -8,10 +8,11 @@
             <div>Strasse : {{standort.strasse}}</div>
             <div>  PLZ: {{standort.plz}}   Ort : {{standort.ort}}</div>
             <img src="images/map-marker-icon.png" ng-click="popoverShow(standort)" class="displayInline" width="36" height="42" />
-            <a href="" class="displayInline"> Route anzeigen </a>
+            <a href=""  ng-click="routeberechnen(standort.strasse, standort.ort)"  class="displayInline"> Route anzeigen </a>
 
-            <div class="popoversw" ng-click="popoverHide(standort)" ng-show="standort.onShow" ng-style>
-               
+            <div class="popoversw"  ng-show="standort.onShow" ng-style>
+                <span class="glyphicon glyphicon-remove" ng-click="popoverHide(standort)" aria-hidden="true"></span>
+
                     <div id="map{{standort.id}}" class="mapDefaults"> </div>
             </div>
 

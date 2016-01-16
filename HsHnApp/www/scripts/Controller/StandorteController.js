@@ -1,6 +1,6 @@
 ﻿var apport = angular.module('hshnApp.StandorteController', []);
 console.log("running Standorte");
-apport.controller('StandorteController', function ($scope) {
+apport.controller('StandorteController', function ($scope,$location) {
     $scope.Standorte = [
       {
           id:1,
@@ -37,6 +37,13 @@ apport.controller('StandorteController', function ($scope) {
         var addresse = element.strasse + " " + element.ort;
         initAdresse(addresse,eleDiv);
         element.onShow = true;
+   
+    }
+
+    $scope.routeberechnen = function(strasse, ort){
+        var earl = '/route/' + strasse+','+ort;
+        $location.path(earl);
+
     }
 
     $scope.popoverHide = function (element) {

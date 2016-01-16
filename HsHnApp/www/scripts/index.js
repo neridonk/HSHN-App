@@ -26,6 +26,7 @@
     };
 })();
 
+var gMap;
 
 function initialize(coords) {
 
@@ -42,6 +43,32 @@ function initialize(coords) {
         map: map,
         position: latlng
     });
+
+    gMap = map;
+}
+
+var directionsService = new google.maps.DirectionsService();
+var directionsRenderer = new google.maps.DirectionsRenderer();
+
+function routeBerechnen() {
+
+    directionsService.route(
+    {
+        origin: document.getElementById("daddr").value,
+        destination: new google.maps.LatLng(52.5162731, 13.3777642),
+        travelMode: google.maps.TravelMode.DRIVING
+    },
+    function (response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsRenderer.setMap(gMap);
+            directionsRenderer.setDirections(response);
+        }
+    });
+
+    //Workaround gegen graue Box
+    setTimeout(function () {
+        google.maps.event.trigger(gMap, 'resize');
+    }, 500)
 }
 
 function initAdresse(adresse, id) {

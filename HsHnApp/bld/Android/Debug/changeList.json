@@ -138,19 +138,31 @@
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
     "www\\images\\map-marker-icon.png",
-    "www\\css\\index.css~RF3e755623.TMP",
-    "www\\css\\index.css~RF3e75efb3.TMP",
-    "www\\scripts\\index.js~RF3e89ddf8.TMP",
-    "www\\css\\index.css~RF3e90b794.TMP"
+    "www\\scripts\\view\\standorte.html",
+    "www\\scripts\\View\\Standorte.html~RF5aee00f.TMP",
+    "www\\scripts\\controller\\standortecontroller.js",
+    "www\\scripts\\View\\RouteBerechnen.html",
+    "www\\scripts\\view\\RouteBerechnen.html",
+    "www\\scripts\\Controller\\RouteBerechnenController.js",
+    "www\\scripts\\controller\\RouteBerechnenController.js",
+    "www\\scripts\\app.js~RF5cbcf3e.TMP",
+    "www\\scripts\\Controller\\RouteBerechnenController.js~RF5e3511a.TMP",
+    "www\\scripts\\Controller\\RouteBerechnenController.js~RF5e61dfa.TMP",
+    "www\\scripts\\Controller\\RouteBerechnenController.js~RF5eabc4b.TMP",
+    "www\\scripts\\View\\RouteBerechnen.html~RF5ef81bb.TMP",
+    "www\\scripts\\Controller\\RouteBerechnenController.js~RF602c5ae.TMP"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "www\\scripts\\View\\Standorte - Kopieren.html",
+    "www\\scripts\\Controller\\HomeController - Kopieren.js",
+    "www\\scripts\\Controller\\RouteBerechnen.js"
+  ],
   "addedPluginsIos": [
     "cordova-plugin-geolocation@1.0.1"
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\css\\index.css",
-    "www\\css\\index.css~RF3e90b794.TMP"
+    "www\\scripts\\controller\\RouteBerechnenController.js"
   ],
   "deletedFiles": [],
   "addedPlugins": [],
