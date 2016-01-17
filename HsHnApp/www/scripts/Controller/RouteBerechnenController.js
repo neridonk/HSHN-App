@@ -4,11 +4,13 @@ app.controller('RouteBerechnenController', function ($scope, $routeParams) {
     $scope.param = $routeParams.param;
 
     var map = null;
+
+    //STart Variablen
     $scope.eaddr = "Stuttgart";
     $scope.daddr = "Heilbronn";
 
 
-
+    //google maps Services Initalisiert
     var directionsService = new google.maps.DirectionsService();
     var directionsDisplay;
 
@@ -21,9 +23,10 @@ app.controller('RouteBerechnenController', function ($scope, $routeParams) {
         }
     }
 
+    //Nur wenn man auf Marker in den Standtorten klickt
     function initParamRoutes() {
         navigator.geolocation.getCurrentPosition(function (position) {
-            document.getElementById("daddr").value = "Hochschule Heilbronn";
+            document.getElementById("daddr").value = "Max-Planck-Straße 39, Heilbronn";
             document.getElementById("eaddr").value = $scope.param;
             $scope.route();
         }, function () {
@@ -32,7 +35,7 @@ app.controller('RouteBerechnenController', function ($scope, $routeParams) {
     }
 
 
-
+    //map wird in das DivElement geladen
     function LoadMap() {
 
 
@@ -51,6 +54,8 @@ app.controller('RouteBerechnenController', function ($scope, $routeParams) {
 
 
     }
+
+    //Route berechnet
     $scope.route = function () {
 
         $scope.daddr = document.getElementById("daddr").value;
@@ -58,7 +63,9 @@ app.controller('RouteBerechnenController', function ($scope, $routeParams) {
 
         directionsService.route(
         {
+            //start
             origin: $scope.daddr,
+            //Ende adresse
             destination: $scope.eaddr,
             travelMode: google.maps.TravelMode.DRIVING
         },

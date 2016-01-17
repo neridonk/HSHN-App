@@ -3,7 +3,9 @@
 <div id="karte"></div>
 <script>
 
+    //mit dieser Funktion ermittelt man den Aktuellen standtort des Benutzers
     navigator.geolocation.getCurrentPosition(function (position) {
+        //ruft Globale  Funktion in der Index.js auf
         initialize(position.coords);
     }, function () {
         document.getElementById('karte').innerHTML = 'Deine Position konnte leider nicht ermittelt werden';

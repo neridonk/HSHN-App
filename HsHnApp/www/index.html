@@ -4,21 +4,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
  
     <title>HsHnApp</title>
-
+    <!-- Verwendete Libaries -->
     <!-- Jquery -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="scripts/forignJS/jquery.min.js"></script>
 
     <!-- Bootstrap -->
 
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="scripts/forignJS/bootstrap.min.js"></script>
 
-    <!-- Specials -->
+    <!-- Meine kreierte -->
 
     <link href="css/index.css" rel="stylesheet" />
 
-    <!-- jasny Navigation -->
+    <!--  Navigation css -->
 
     <link href="css/jasny-bootstrap/css/jasny-bootstrap.min.css" rel="stylesheet" />
     <script src="css/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
@@ -33,7 +33,7 @@
 </head>
 <body ng-app="hshnApp" ng-controller="HomeController">
 
-    <!-- Menu BigView -->
+    <!-- Navigation Desktop Ansicht -->
     <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm" style="">
         <a class="navmenu-brand visible-md visible-lg" href="#"><img src="https://www.hs-heilbronn.de/905164/HHN_ab_40_mm_4c_pos.jpg" width="100" height="40" /></a>
         <ul class="nav navmenu-nav">
@@ -43,8 +43,8 @@
         </ul>
     </div>
 
-    <!-- Menu im Mobile View -->
-    <div class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
+    <!-- Navigation in der Mobilen Ansicht -->
+    <div  class="navbar navbar-default navbar-fixed-top hidden-md hidden-lg">
         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -53,13 +53,13 @@
         <a class="navbar-brand" href="/"><img src="https://www.hs-heilbronn.de/905164/HHN_ab_40_mm_4c_pos.jpg" width="100" height="35" /></a>
     </div>
 
-    <!-- der Content -->
+    <!-- der Content(nur hier verändert sich was in der Ansicht) -->
     <div class="container">
         <ng-view></ng-view>
     </div>
 
 
-    <!-- Cordova-Verweis, wird Ihrer App beim Erstellen hinzugefügt. -->
+    <!-- Cordova-Verweis, wird Ihrer App beim Erstellen hinzugefügt. (wurden bei der Projekterstellung automatisch generiert)-->
     <script src="cordova.js"></script>
     <script src="scripts/platformOverrides.js"></script>
     <script src="scripts/index.js"></script>
@@ -67,9 +67,10 @@
 
     <!-- Angular -->
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular-route.js"></script>
+    <script type="text/javascript" src="scripts/forignJS/angular.js"></script>
+    <script src="scripts/forignJS/angular-route.js"></script>
 
+    <!--Meine Angular Scripts -->
     <script src="scripts/app.js"></script>
     <script src="scripts/Controller/HomeController.js"></script>
     <script src="scripts/Controller/StandorteController.js"></script>

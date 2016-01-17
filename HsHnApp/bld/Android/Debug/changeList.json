@@ -31,7 +31,6 @@
     "res\\screens\\android\\screen-hdpi-portrait.png",
     "plugins\\cordova-plugin-geolocation\\package.json",
     "plugins\\cordova-plugin-geolocation\\tests\\plugin.xml",
-    "www\\scripts\\View\\Test.html",
     "plugins\\cordova-plugin-geolocation\\RELEASENOTES.md",
     "www\\css\\index.css",
     "res\\icons\\windows\\StoreLogo.scale-240.png",
@@ -58,6 +57,7 @@
     "res\\icons\\windows\\Square150x150Logo.scale-100.png",
     "plugins\\cordova-plugin-whitelist\\doc\\fr\\README.md",
     "package.json",
+    "www\\scripts\\View\\RouteBerechnen.html",
     "res\\screens\\android\\screen-ldpi-landscape.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-240.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-100.png",
@@ -135,36 +135,48 @@
     "plugins\\cordova-plugin-geolocation\\tests\\tests.js",
     "www\\scripts\\View\\Standorte.html",
     "plugins\\cordova-plugin-whitelist\\README.md",
+    "www\\scripts\\Controller\\RouteBerechnenController.js",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
     "www\\images\\map-marker-icon.png",
-    "www\\scripts\\view\\standorte.html",
-    "www\\scripts\\View\\Standorte.html~RF5aee00f.TMP",
-    "www\\scripts\\controller\\standortecontroller.js",
-    "www\\scripts\\View\\RouteBerechnen.html",
-    "www\\scripts\\view\\RouteBerechnen.html",
-    "www\\scripts\\Controller\\RouteBerechnenController.js",
-    "www\\scripts\\controller\\RouteBerechnenController.js",
-    "www\\scripts\\app.js~RF5cbcf3e.TMP",
-    "www\\scripts\\Controller\\RouteBerechnenController.js~RF5e3511a.TMP",
-    "www\\scripts\\Controller\\RouteBerechnenController.js~RF5e61dfa.TMP",
-    "www\\scripts\\Controller\\RouteBerechnenController.js~RF5eabc4b.TMP",
-    "www\\scripts\\View\\RouteBerechnen.html~RF5ef81bb.TMP",
-    "www\\scripts\\Controller\\RouteBerechnenController.js~RF602c5ae.TMP"
+    "www\\css\\bootstrap.css",
+    "www\\images\\HHN_ab_40_mm_4c_pos.jpg",
+    "www\\scripts\\forignJS\\angular-route.js",
+    "www\\scripts\\forignJS\\angular.min.js",
+    "www\\scripts\\forignJS\\jquery.min.js",
+    "www\\scripts\\forignJS\\bootstrap.min.js",
+    "www\\scripts\\forignJS\\angular.js",
+    "www\\index.html~RFbbedc76.TMP"
   ],
   "deletedFilesIos": [
-    "www\\scripts\\View\\Standorte - Kopieren.html",
-    "www\\scripts\\Controller\\HomeController - Kopieren.js",
-    "www\\scripts\\Controller\\RouteBerechnen.js"
+    "www\\scripts\\angular-route.js",
+    "www\\scripts\\angular.min.js",
+    "www\\scripts\\jquery.min.js",
+    "www\\scripts\\bootstrap.min.js",
+    "www\\scripts\\View\\Test.html"
   ],
   "addedPluginsIos": [
     "cordova-plugin-geolocation@1.0.1"
   ],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\scripts\\controller\\RouteBerechnenController.js"
+    "res\\icons\\android\\icon-72-hdpi.png",
+    "res\\icons\\android\\icon-96-xhdpi.png",
+    "res\\icons\\android\\icon-48-mdpi.png",
+    "res\\icons\\android\\icon-36-ldpi.png",
+    "www\\index.html",
+    "www\\index.html~RFbbedc76.TMP",
+    "www\\scripts\\index.js",
+    "www\\scripts\\Controller\\HomeController.js",
+    "www\\scripts\\app.js",
+    "www\\scripts\\View\\Home.html",
+    "www\\scripts\\Controller\\StandorteController.js",
+    "www\\scripts\\View\\Standorte.html",
+    "www\\scripts\\Controller\\RouteBerechnenController.js"
   ],
-  "deletedFiles": [],
+  "deletedFiles": [
+    "www\\scripts\\View\\Test.html"
+  ],
   "addedPlugins": [],
   "deletedPlugins": []
 }

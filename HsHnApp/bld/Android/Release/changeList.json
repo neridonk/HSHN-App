@@ -58,6 +58,7 @@
     "res\\icons\\windows\\Square150x150Logo.scale-100.png",
     "plugins\\cordova-plugin-whitelist\\doc\\fr\\README.md",
     "package.json",
+    "www\\scripts\\View\\RouteBerechnen.html",
     "res\\screens\\android\\screen-ldpi-landscape.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-240.png",
     "res\\icons\\windows\\Wide310x150Logo.scale-100.png",
@@ -135,11 +136,24 @@
     "plugins\\cordova-plugin-geolocation\\tests\\tests.js",
     "www\\scripts\\View\\Standorte.html",
     "plugins\\cordova-plugin-whitelist\\README.md",
+    "www\\scripts\\Controller\\RouteBerechnenController.js",
     "res\\icons\\windows\\Square44x44Logo.scale-240.png",
     "res\\screens\\android\\screen-mdpi-portrait.png",
-    "www\\images\\map-marker-icon.png"
+    "www\\images\\map-marker-icon.png",
+    "www\\css\\bootstrap.css",
+    "www\\images\\HHN_ab_40_mm_4c_pos.jpg",
+    "www\\scripts\\forignJS\\angular-route.js",
+    "www\\scripts\\forignJS\\angular.min.js",
+    "www\\scripts\\forignJS\\jquery.min.js",
+    "www\\scripts\\forignJS\\bootstrap.min.js",
+    "www\\scripts\\forignJS\\angular.js"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "www\\scripts\\angular-route.js",
+    "www\\scripts\\angular.min.js",
+    "www\\scripts\\jquery.min.js",
+    "www\\scripts\\bootstrap.min.js"
+  ],
   "addedPluginsIos": [
     "cordova-plugin-geolocation@1.0.1"
   ],
