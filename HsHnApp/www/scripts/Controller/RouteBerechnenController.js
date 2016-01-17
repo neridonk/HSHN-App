@@ -25,13 +25,11 @@ app.controller('RouteBerechnenController', function ($scope, $routeParams) {
 
     //Nur wenn man auf Marker in den Standtorten klickt
     function initParamRoutes() {
-        navigator.geolocation.getCurrentPosition(function (position) {
+    
             document.getElementById("daddr").value = "Max-Planck-Straße 39, Heilbronn";
             document.getElementById("eaddr").value = $scope.param;
             $scope.route();
-        }, function () {
-            document.getElementById('karte').innerHTML = 'Deine Position konnte leider nicht ermittelt werden';
-        });
+        
     }
 
 
